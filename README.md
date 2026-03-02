@@ -210,39 +210,10 @@ Captures the economic value of each customer.
 
 ---
 
-## 🚀 How to Run
-
-1. **Set up a PostgreSQL database** (v12+ recommended)
-2. **Import your dataset** into the `Customer` table using the schema defined at the top of `Complete_Churn_Analysis.sql`
-3. **Run the SQL file** section by section, or execute the full script:
-
-```sql
--- Example: Run in psql
-\i Complete_Churn_Analysis.sql
-```
-
-4. Use a SQL client like **pgAdmin**, **DBeaver**, or **TablePlus** to explore query results visually
-
----
-
-## 📦 Requirements
-
-- PostgreSQL 12+
-- Any SQL client (pgAdmin / DBeaver / TablePlus / psql CLI)
-- Bank customer dataset with the schema defined in `Complete_Churn_Analysis.sql`
-
----
-
 ## 🤝 Acknowledgements
 
 This project was completed under the **UpGrad MentorMind Menternship** program as part of the Business Analytics & Consulting track.  
 Special thanks to UpGrad mentors and the MentorMind community for their guidance and feedback throughout the project.
-
----
-
-## 📜 License
-
-This project is for educational purposes as part of an UpGrad Menternship program. Please credit the author if referencing this work.
 
 ---
 
